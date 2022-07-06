@@ -2,18 +2,28 @@ body{
     margin: 0;
     padding: 0;
     /*background: linear-gradient(to right, #411199, #da38ef);*/
-    background: url(../img/partituras_colores.jpg);
+    background: url(../img/fondo2.jpg);
     background-size: cover;
     
 }
 
 #login .container #login-row #login-column #login-box{
-    margin-top: 70px;
+    margin-top: 60px;
+    padding: inherit;
     max-width: 600px;
+    height: 350px;
+    box-shadow: 2px 2px 2px 2px #343a40;
+    border-radius: 3px;
+}
+h3.text-center.text-dark {
+    padding-top: 30px;
+}
+.jumbotron {
+    background: #adadad;
     height: 300px;
     box-shadow: 2px 2px 2px 2px #343a40;
     border-radius: 3px;
 }
-.jumbotron {
-    background: #adadad;
+.button{
+    text-align: center;
 }

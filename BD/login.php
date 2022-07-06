@@ -31,4 +31,4 @@ $conexion=null;
 
 //usuarios de prueba en la base de datos
 //usuario:admin pass:12345
-//usuario:alumno pass:12345
+//usuario:usuario pass:12345

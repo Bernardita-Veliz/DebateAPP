@@ -8208,8 +8208,8 @@
   
   #sidebar {
     min-width: 250px;
-    max-width: 250px;
-    background: #9300ff;
+    max-width: 270px;
+    background: #617A74;
     color: #fff;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;

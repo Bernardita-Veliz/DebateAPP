@@ -8,7 +8,7 @@
         <title>Login</title>
 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../Proyecto-2/assets/css/login.css">
+        <link rel="stylesheet" href="assets/css/login.css">
         <link rel="stylesheet" href="assets/css/sweetalert2.min.css">            
     </head>
     
@@ -26,13 +26,15 @@
                                     <label for="usuario" class="text-dark">Usuario</label>
                                     <input type="text" name="usuario" id="usuario" class="form-control">
                                 </div>
+                                <br>
                                 <div class="form-group">
                                     <label for="password" class="text-dark">Password</label>
                                     <input type="password" name="password" id="password" class="form-control">
                                 </div>
-                                
+                                <br>
+                                <br>
                                 <div class="form-gropu text-center">
-                                    <input type="submit" name="submit" class="btn btn-dark btn-lg btn-block" value="Conectar">
+                                    <input type="submit" name="submit" class="btn btn-success btn-lg btn-block" value="Conectar">
                                 </div>
                             </form>
                         </div>
@@ -46,7 +48,7 @@
         <script src="assets/js/bootstrap.min.js"></script>    
         <script src="assets/js/popper.min.js"></script>    
             
-        <script src="assets/js/sweetalert2.all.min.js"></script>    
+        <script src="assets/js/sweetalert2.all.min.js"></script> 
         <script src="assets/js/codigo.js"></script>    
     </body>
 </html>
